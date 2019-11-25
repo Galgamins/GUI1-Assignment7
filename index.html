@@ -28,7 +28,7 @@
 
   <!-- Form for inputs. Validate inputs are numbers using type="number". Non-number values will not be accepted. -->
   <div class="row justify-content-md-center">
-    <form>
+    <form class="cmxform" id="commentForm" method="get" action="">
       <div class="form-group text-center col-md-3">
         <label for="multiplier1">Multiplier 1</label>
         <input type="number" step="any" class="form-control" id="multiplier1" placeholder="Enter lower number">
@@ -60,10 +60,17 @@
   </div>
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- jQuery Validation Plugin-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/additional-methods.js"></script>
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <!-- Custom scripts -->
   <script src="js/file.js"></script>
+
+  <script>
+$("#commentForm").validate();
+</script>
 </body>
 
 </html>

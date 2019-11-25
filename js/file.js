@@ -9,9 +9,9 @@ function generateTable(multplierMin, multplierMax, multiplicandMin, multiplicand
   var multiplicand2 = multiplicandMax.value;
 
   //Pass as strings to handle input "-"
-  if(validateInput(multiplier1, multiplier2, multiplicand1, multiplicand2) == false){
-    return;
-  }
+//  if(validateInput(multiplier1, multiplier2, multiplicand1, multiplicand2) == false){
+//    return;
+//  }
 
   //convert to Number to handle floating point inputs
   multiplier1 = Number(multiplier1);
