@@ -52,3 +52,19 @@ tr td:first-child {
   color: gold;
   background-color: black;
 }
+
+/*Styles error messages*/
+.error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
