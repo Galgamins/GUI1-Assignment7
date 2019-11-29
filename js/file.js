@@ -49,7 +49,7 @@ function generateTable() {
   }
 };
 
-function validate() {
+$(function() {
   $("#tableInput").validate({
     // Rules for validating the form.
     rules: {
@@ -102,4 +102,4 @@ function validate() {
       error.insertAfter(element);
     }
   });
-};
+});
